@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: #789dad;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo{
+    color: #3e5e77;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header*/
+header{
+    width: 100%;
+    height: 300;
+    background: #5B7C8D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B7C8D(198, 39%, 28%, 0.478), #5B7C8D(195, 35%, 19%, 0.548),  #5B7C8D (198, 43%, 11%, 0.564)), url(/images/tal.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B7C8D  (198, 39%, 28%, 0.478),  #5B7C8D  (195, 35%, 19%, 0.548), #5B7C8D (198, 43%, 11%, 0.564)), url(/images/tal.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .textos-header{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 80px;
+    color: #fff;  
+    font-family: 'Dancing Script', cursive;
+    margin-top: 40px;
+}
+
+.textos-header h2{
+    font-size: 40px;
+    font-weight: 300;
+    color:#415a77 ;
+    font-family: 'Sansita', sans-serif;
+}
+
+.wave{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Listas*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #5B7C8D;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin:2%;
+    margin-top: 0;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+    text-align: justify;
+    font-family: 'Lobster', cursive;
+}
+
+.cards .card > .contenido-texto-card ul{
+    font-weight: 300;
+    padding: 5px;
+    text-align: justify;
+    color: #fff;
+    font-family: 'Sansita', sans-serif;
+}
+
+
+/*Misiones*/
+
+.contenedor-misiones{
+    display: flex;
+    justify-content: center;
+    background-color: #789dad;
+}
+
+.misiones-img{
+    width: 48%;
+}
+
+.contenedor-misiones .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h2{
+    margin-bottom: px;
+    display: inline-block;
+    padding: 15px;
+    color: #9BA8AB;
+    font-family: 'Lobster', cursive;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    color: white;
+    font-family: 'Sansita', sans-serif;
+}
+
+
+/*Tema Astrologia*/
+.ala-astro {
+    background-color: #5B7C8D;
+}
+.contenedor-sobre-astrobiologia{
+    display: flex;
+    justify-content: center;
+}
+
+.ima-astro{
+    width: 50%;
+    height:60%;
+}
+
+.contenedor-sobre-astrobiologia .contenido-textos-astro{
+    width: 48%;
+}
+
+.contenido-textos-astro h2{
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 20px 0px 30px 40px;
+    color: #193944;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+
+.contenido-textos-astro p{
+    padding: 20px 0px 30px 40px;
+    font-weight: 300;
+    text-align: justify;
+    color: #9BA8AB;
+    font-size: 20px;
+    font-family: 'Sansita', sans-serif;
+}
+
+/*Origen del Universo*/
+
+.nuevo-tema{
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: auto;
+}
+.nuevo-tema h2{
+    color: #9BA8AB;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards2 .card2{
+    display: flex;
+    width: auto;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#5B7C8D;
+}
+
+.cards2 .card2 > .contenido-texto-card2{
+    width: 210%;
+    text-align: justify;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+.cards2 .card2 > .contenido-texto-card2 h2{
+    font-size:45px ;
+    font-family: 'Lobster', cursive;
+    color: #193944;
+}
+
+
+.cards2 .card2 > .contenido-texto-card2 p{
+    font-weight: 300px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Sansita', sans-serif;
+    color: #9BA8AB;
+}
+
+
+/*Origen de las Estrellas */
+
+.ala-estrella{
+    background-color: #5B7C8D;
+
+}
+.contenedor-sobre-estrellas{
+    display: flex;
+    justify-content: center;
+}
+
+.ima-estre{
+    width: 40%;
+}
+
+.contenedor-sobre-estrellas .contenido-textos-estre{
+    width: 48%;
+}
+
+.contenido-textos-estre h2{
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 20px 0px 30px 40px;
+    color: #193944;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    justify-content: center;
+
+}
+.contenido-textos-estre p{
+    padding: 20px 0px 30px 40px;
+    font-weight: 300;
+    text-align: justify;
+    color: #9BA8AB;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Sansita', sans-serif;
+}
+
+.formu1{
+    background-color: #5B7C8D;
+    text-align: justify;
+    height:150 ;
+    width:250;
+}
+
